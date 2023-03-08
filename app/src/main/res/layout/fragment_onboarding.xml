@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15sp"
+    tools:context=".OnboardingFragment"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="400sp"
+        android:layout_height="400sp"
+        android:background="@drawable/cuttoms_img"
+        android:src="@mipmap/cattoc"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tìm được tiệm cắt tóc như mong muốn dễ dàng trong tầm tay của bạn"
+        android:textSize="19sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"/>
+
+
+
+
+
+</LinearLayout>

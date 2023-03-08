@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="slide1"><![CDATA[https://firebasestorage.googleapis.com/v0/b/da1android.appspot.com/o/slider1.png?alt=media&token=90f5211d-e14a-4bbd-942a-931e65b77d9e]]></string>
+    <string name="slide2"><![CDATA[https://firebasestorage.googleapis.com/v0/b/da1android.appspot.com/o/slider2.png?alt=media&token=7ec22fcd-0ead-489d-bac8-ba5050e4146f]]></string>
+    <string name="slide3"><![CDATA[https://firebasestorage.googleapis.com/v0/b/da1android.appspot.com/o/slider3.png?alt=media&token=b1c8d67d-3651-48c0-be09-8adbc61cc82a]]></string>
+    <string name="slide4"><![CDATA[https://firebasestorage.googleapis.com/v0/b/da1android.appspot.com/o/slider4.png?alt=media&token=dcc913ba-b896-481d-b935-217c5fa2455c]]></string>
+</resources>

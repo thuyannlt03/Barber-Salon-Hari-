@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/m_loaiDV"
+            android:icon="@drawable/ic_baseline_turned_in_24"
+            android:title="Quản Lý Loại Dịch Vụ"></item>
+
+    <item android:id="@+id/m_listDV"
+        android:icon="@drawable/ic_baseline_list_alt_24"
+        android:title="Quản Lý Dịch Vụ"></item>
+
+    <item android:id="@+id/m_donhang"
+        android:icon="@drawable/ic_baseline_assignment_24"
+        android:title="Quản Lý Đơn Hàng"></item>
+
+    <item
+        android:id="@+id/m_thanhvien"
+        android:icon="@drawable/ic_baseline_account_box_24"
+        android:title="Quản Lý Thành Viên"></item>
+
+    <item
+        android:id="@+id/m_thongke"
+        android:icon="@drawable/ic_baseline_stacked_line_chart_24"
+        android:title="Thống kê doanh số"></item>
+</menu>

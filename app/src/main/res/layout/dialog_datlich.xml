@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="Đặt Lịch"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textColor="#FF9800"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Họ và tên: "
+            android:textSize="20sp"
+            android:textStyle="bold|italic"/>
+        <TextView
+            android:id="@+id/tv_tenKHDK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Họ và tên"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FF9800"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dịch Vụ: "
+            android:textSize="20sp"
+            android:textStyle="bold|italic"/>
+        <TextView
+            android:id="@+id/tv_tenDVDK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên dịch vụ"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="34dp"
+            android:textColor="#FF9800"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày Đặt: "
+            android:textSize="20sp"
+            android:textStyle="bold|italic"/>
+        <TextView
+            android:id="@+id/tv_ngayDK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Chọn ngày"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="22dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giờ đặt: "
+            android:textSize="20sp"
+            android:textStyle="bold|italic"/>
+        <TextView
+            android:id="@+id/tv_gioDK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Chọn giờ"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="38dp"
+            android:textColor="#FF9800"/>
+    </LinearLayout>
+
+
+</LinearLayout>

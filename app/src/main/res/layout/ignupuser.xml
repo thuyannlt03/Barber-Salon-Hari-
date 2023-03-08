@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Singupuser"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        android:layout_gravity="center"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/changeProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="mini"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-50dp"
+        app:srcCompat="@drawable/ic_baseline_edit_24"
+        android:backgroundTint="@color/purple_500"
+        app:tint="@color/white"/>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/sign_hoten"
+            android:layout_width="370dp"
+            android:layout_height="61dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:drawableStart="@drawable/ic_box"
+            android:drawablePadding="15dp"
+            android:background="@drawable/edittext"
+            android:hint="Họ và Tên"
+            android:inputType="text"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="0dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/sign_sdt"
+            android:layout_width="370dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="40dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:drawableStart="@drawable/ic_phone"
+            android:drawablePadding="15dp"
+            android:background="@drawable/edittext"
+            android:hint="Số Điện Thoại"
+            android:inputType="number"
+            android:textSize="18dp"
+            app:layout_constraintBaseline_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sign_hoten"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="0dp"
+            tools:ignore="MissingConstraints" />
+        <EditText
+            android:id="@+id/sign_ngaysinh"
+            android:layout_width="370dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="40dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:drawableStart="@drawable/ic_date"
+            android:drawablePadding="15dp"
+            android:background="@drawable/edittext"
+            android:hint="Ngày Sinh"
+            android:inputType="date"
+            android:textSize="18dp"
+            app:layout_constraintBaseline_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sign_sdt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="0dp"
+            tools:ignore="MissingConstraints" />
+        <EditText
+            android:id="@+id/sign_password"
+            android:layout_width="370dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="40dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="15dp"
+            android:background="@drawable/edittext"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="18dp"
+            app:layout_constraintBaseline_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sign_ngaysinh"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="0dp"
+            tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/button"
+        android:padding="10dp"
+        android:text="Đăng Ký"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
